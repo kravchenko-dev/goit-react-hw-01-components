@@ -1,20 +1,17 @@
+// Core
 import React from 'react';
 
-// Задание №3
-import Profile from './components/social-profile/socialProfile';
-import user from './components/social-profile/user.json';
+// Components
+import Profile from './components/SocialProfile/socialProfile';
+import StatisticsList from './components/Statistics/statisticsList';
+import FriendList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
-// Задание №2
-import StatisticsList from './components/statistics/statisticsList';
-import statisticalData from './components/statistics/statistical-data.json';
-
-// Задание №3
-import FriendList from './components/friend-list/FriendList';
-import friends from './components/friend-list/friends.json';
-
-// Задача №4
-import TransactionHistory from './components/transaction-history/TransactionHistory';
-import items from './components/transaction-history/transactions.json';
+// Instruments
+import statisticalData from './components/Statistics/statistical-data.json';
+import user from './components/SocialProfile/user.json';
+import friends from './components/FriendList/friends.json';
+import items from './components/TransactionHistory/transactions.json';
 
 const App = () => {
   return (
